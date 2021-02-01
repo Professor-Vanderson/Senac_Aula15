@@ -1,0 +1,10 @@
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\bin\Debug\Projeto_Aula.exe.config
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\bin\Debug\Projeto_Aula.exe
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\bin\Debug\Projeto_Aula.pdb
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.csprojAssemblyReference.cache
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.frmAula15.resources
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.Properties.Resources.resources
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.csproj.GenerateResource.cache
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.csproj.CoreCompileInputs.cache
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.exe
+C:\Users\vande\Documents\Senac\Aula15\Projeto_Aula\obj\Debug\Projeto_Aula.pdb
