@@ -36,6 +36,13 @@ namespace Projeto_Aula
             this.label3 = new System.Windows.Forms.Label();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.btnGravar = new System.Windows.Forms.Button();
+            this.lstDados = new System.Windows.Forms.ListBox();
+            this.dtGrid = new System.Windows.Forms.DataGridView();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnDeletar = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -96,11 +103,73 @@ namespace Projeto_Aula
             this.btnGravar.UseVisualStyleBackColor = true;
             this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
             // 
+            // lstDados
+            // 
+            this.lstDados.FormattingEnabled = true;
+            this.lstDados.Location = new System.Drawing.Point(15, 187);
+            this.lstDados.Name = "lstDados";
+            this.lstDados.Size = new System.Drawing.Size(429, 95);
+            this.lstDados.TabIndex = 7;
+            // 
+            // dtGrid
+            // 
+            this.dtGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrid.Location = new System.Drawing.Point(15, 288);
+            this.dtGrid.Name = "dtGrid";
+            this.dtGrid.Size = new System.Drawing.Size(429, 103);
+            this.dtGrid.TabIndex = 8;
+            this.dtGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_CellContentClick);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(96, 146);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpar.TabIndex = 9;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnDeletar
+            // 
+            this.btnDeletar.Location = new System.Drawing.Point(177, 146);
+            this.btnDeletar.Name = "btnDeletar";
+            this.btnDeletar.Size = new System.Drawing.Size(75, 23);
+            this.btnDeletar.TabIndex = 10;
+            this.btnDeletar.Text = "Apagar";
+            this.btnDeletar.UseVisualStyleBackColor = true;
+            this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
+            // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.Location = new System.Drawing.Point(259, 146);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnAtualizar.TabIndex = 11;
+            this.btnAtualizar.Text = "Atualizar";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Location = new System.Drawing.Point(340, 146);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(75, 23);
+            this.btnFechar.TabIndex = 12;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
             // frmAula15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 409);
+            this.ClientSize = new System.Drawing.Size(472, 482);
+            this.Controls.Add(this.btnFechar);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.btnDeletar);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.dtGrid);
+            this.Controls.Add(this.lstDados);
             this.Controls.Add(this.btnGravar);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.label3);
@@ -110,6 +179,8 @@ namespace Projeto_Aula
             this.Controls.Add(this.label1);
             this.Name = "frmAula15";
             this.Text = "Aula 15";
+            this.Load += new System.EventHandler(this.frmAula15_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,6 +195,12 @@ namespace Projeto_Aula
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Button btnGravar;
+        private System.Windows.Forms.ListBox lstDados;
+        private System.Windows.Forms.DataGridView dtGrid;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnDeletar;
+        private System.Windows.Forms.Button btnAtualizar;
+        private System.Windows.Forms.Button btnFechar;
     }
 }
 
